@@ -667,7 +667,7 @@ namespace BunchOfRandomStuff.Events
                     {
                         ev.Player.AddItem(ItemType.KeycardJanitor);
 
-                        SetPlayerRank(ev.Player, "Janitor", RankColours.GetColour(RankColours.RankColour.pumpkin));
+                        SetPlayerRank(ev.Player, $"Janitor", RankColours.GetColour(RankColours.RankColour.pumpkin));
                     }
                     if (rng.Next(1, 101) >= 85)
                     {
@@ -681,14 +681,14 @@ namespace BunchOfRandomStuff.Events
                         ev.Player.AddItem(ItemType.KeycardJanitor);
                         ev.Player.AddItem(ItemType.Medkit);
 
-                        SetPlayerRank(ev.Player, "Janitor", RankColours.GetColour(RankColours.RankColour.pumpkin));
+                        SetPlayerRank(ev.Player, $"Janitor", RankColours.GetColour(RankColours.RankColour.pumpkin));
                     }
                 }
                 else if (rng.Next(1, 101) >= 85)
                 {
                     ev.Player.AddItem(ItemType.KeycardJanitor);
 
-                    SetPlayerRank(ev.Player, "Janitor", RankColours.GetColour(RankColours.RankColour.pumpkin));
+                    SetPlayerRank(ev.Player, $"Janitor", RankColours.GetColour(RankColours.RankColour.pumpkin));
                 }
             }
 
@@ -713,7 +713,7 @@ namespace BunchOfRandomStuff.Events
                         }
                         ev.Player.AddItem(ItemType.KeycardResearchCoordinator);
 
-                        SetPlayerRank(ev.Player, "Research Supervisor", RankColours.GetColour(RankColours.RankColour.yellow));
+                        SetPlayerRank(ev.Player, $"Research Supervisor", RankColours.GetColour(RankColours.RankColour.yellow));
                     }
                 }
                 else if (BORSMain.Instance.Config.ActiveTitleC1.Contains(ev.Player.UserId))
@@ -732,7 +732,7 @@ namespace BunchOfRandomStuff.Events
                         }
                         ev.Player.AddItem(ItemType.KeycardResearchCoordinator);
 
-                        SetPlayerRank(ev.Player, "Research Supervisor", RankColours.GetColour(RankColours.RankColour.yellow));
+                        SetPlayerRank(ev.Player, $"Research Supervisor", RankColours.GetColour(RankColours.RankColour.yellow));
                     }
                 }
                 else if (rng.Next(1, 101) >= 75)
@@ -747,7 +747,7 @@ namespace BunchOfRandomStuff.Events
                     }
                     ev.Player.AddItem(ItemType.KeycardResearchCoordinator);
 
-                    SetPlayerRank(ev.Player, "Research Supervisor", RankColours.GetColour(RankColours.RankColour.yellow));
+                    SetPlayerRank(ev.Player, $"Research Supervisor", RankColours.GetColour(RankColours.RankColour.yellow));
                 }
             }
 
@@ -768,7 +768,7 @@ namespace BunchOfRandomStuff.Events
                         ev.Player.AddItem(ItemType.KeycardNTFOfficer);
                         ev.Player.AddAmmo(Exiled.API.Enums.AmmoType.Nato9, 90);
 
-                        SetPlayerRank(ev.Player, "Head of Security", RankColours.GetColour(RankColours.RankColour.silver));
+                        SetPlayerRank(ev.Player, $"Head of Security", RankColours.GetColour(RankColours.RankColour.silver));
                     }
                     if (rng.Next(1, 101) >= 85)
                     {
@@ -807,7 +807,7 @@ namespace BunchOfRandomStuff.Events
                         ev.Player.AddItem(ItemType.KeycardNTFOfficer);
                         ev.Player.AddAmmo(Exiled.API.Enums.AmmoType.Nato9, 90);
 
-                        SetPlayerRank(ev.Player, "Head of Security", RankColours.GetColour(RankColours.RankColour.silver));
+                        SetPlayerRank(ev.Player, $"Head of Security", RankColours.GetColour(RankColours.RankColour.silver));
                     }
                 }
                 else if (rng.Next(1, 101) >= 75)
@@ -823,7 +823,7 @@ namespace BunchOfRandomStuff.Events
                     ev.Player.AddItem(ItemType.KeycardNTFOfficer);
                     ev.Player.AddAmmo(Exiled.API.Enums.AmmoType.Nato9, 90);
 
-                    SetPlayerRank(ev.Player, "Head of Security", RankColours.GetColour(RankColours.RankColour.silver));
+                    SetPlayerRank(ev.Player, $"Head of Security", RankColours.GetColour(RankColours.RankColour.silver));
                 }
             }
 
